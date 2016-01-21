@@ -1,0 +1,18 @@
+type i
+ERROR -- type-code
+type iJ
+ERROR -- type-code
+systy
+ERROR -- command
+SYST 
+ERROR -- CRLF
+SYST ERROR -- CRLF
+NOOP
+ERROR -- CRLF
+USER
+ERROR -- command
+ hello
+ERROR -- command
+USERjasleenERROR -- CRLF
+USER jasleen
+Command ok
